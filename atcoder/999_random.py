@@ -63,17 +63,51 @@
 
 # Card Game for Two-------------------------------------------------------------------------
 
-n = int(input())
-list = list(map(int, input().split()))
-Alice = []
-Bob = []
+# n = int(input())
+# list = list(map(int, input().split()))
+# Alice = []
+# Bob = []
 
-list.sort(reverse=True)
+# list.sort(reverse=True)
 
-for i, num in enumerate(list):
-    if i % 2 == 0:
-        Alice.append(num)
-    else:
-        Bob.append(num)
+# for i, num in enumerate(list):
+#     if i % 2 == 0:
+#         Alice.append(num)
+#     else:
+#         Bob.append(num)
 
-print(sum(Alice) - sum(Bob))
+# print(sum(Alice) - sum(Bob))
+
+
+# Kagami Mochi-------------------------------------------------------------------------
+
+# n = int(input())
+# list = []
+# for i in range(n):
+#     list.append(int(input()))
+
+# print(len(set(list)))
+
+
+# Otoshidama -------------------------------------------------------------------------
+
+# x, y = map(int, input().split())
+
+# for i in range(x + 1):
+#     if 10000 * i > y:
+#         continue
+#     for j in range(x + 1 - i):
+#         if 10000 * i + 5000 * j > y:
+#             continue
+#         else:
+#             if 10000 * i + 5000 * j + 1000 * (x - i - j) == y:
+#                 print("{} {} {}".format(i, j, x - i - j))
+#                 break
+#     else:
+#         continue
+#     break
+# else:
+#     print("-1 -1 -1")
+
+
+# 白昼夢 -------------------------------------------------------------------------
